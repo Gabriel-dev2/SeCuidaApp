@@ -34,6 +34,13 @@ const styles = StyleSheet.create({
    fontSize: 16,
    fontWeight: 'bold',
    color: '#fff'
+  },
+  mapView: {
+    position: 'absolute',
+    top: 0,
+    left: 0,
+    bottom: 0,
+    right: 0
   }
 })
 
