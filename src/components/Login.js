@@ -31,7 +31,7 @@ export default class App extends Component {
         />
         <TouchableOpacity 
           style={styles.button}
-          onPress={ () => {this.props.navigation.navigate('Home')} }
+          onPress={ () => {this.props.navigation.navigate('Map')} }
         >
           <Text style={styles.buttonText}>Login</Text>
         </TouchableOpacity>
