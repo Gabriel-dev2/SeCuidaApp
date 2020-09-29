@@ -4,6 +4,7 @@ import { createStackNavigator } from 'react-navigation-stack'
 
 import Login from './components/Login'
 import Home from './components/Home'
+import Map from './components/Map'
 
 const MainNav = createStackNavigator (
     {
@@ -13,10 +14,10 @@ const MainNav = createStackNavigator (
                 header: null
             }
         },
-        Home: {
-            screen: Home,
+        Map: {
+            screen: Map,
             navigationOptions: {
-                headerTitle: 'Home'
+                headerShown: null
             }
         }
     }
